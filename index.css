@@ -1,0 +1,37 @@
+.container__properties {
+    width: 600px;
+    margin-top: 150px;
+}
+
+.button__container {
+    margin-top: 23px !important;
+}
+
+.table__border {
+    border-radius: 25px;
+}
+
+
+.tabla__error {
+    width: 550px;
+    padding-left: 15px;
+}
+
+
+.card__properties {
+    border: none;
+}
+
+
+.table__title__properties{
+    border: none !important;
+    border-bottom: 2px solid black !important;
+}
+
+.user__name__properties {
+    font-size: 15px !important;
+}
+
+.name__properties {
+    font-size: 35px;
+}

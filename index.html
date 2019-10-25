@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+   
+  </head>
+  <body>
+
+    <!--SEARCH-BAR-->
+        <div class="container container__properties" id="tablaUno"> 
+          <div class="row shadow p-3 mb-5 bg-white table__border">
+            <div class="col-10">
+              <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1"></label>
+                    <input type="text" class="busquedaUsuario form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search username...">
+                    <small id="emailHelp" class="form-text text-muted"></small>
+                  </div>
+                </form>
+              </div>
+
+              <!--BOTON-->
+              <div class="col-2 button__container">
+                <button  type="button" class="btn btn-primary btn__user btn-light button__properties botonSearch1">Search</button>
+            </div>
+          </div>
+        </div>
+
+    <!--END - SEARCH-BAR-->
+
+    <!--SEARCH-BAR + CARD + TABLE-->
+    <div class="container container__properties d-none" id="tablaDos"> 
+          <div class="row shadow p-3 mb-5 bg-white table__border">
+            <div class="col-10">
+              <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1"></label>
+                    <input type="text" class="busquedaUsuario form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search username...">
+                    <small id="emailHelp" class="form-text text-muted"></small>
+                  </div>
+                </form>
+              </div>
+
+              <!--BOTON tabla 2-->
+              <div class="col-2 button__container">
+                <button  type="button" class="btn btn-primary btn__user btn-light button__properties botonSearch2">Search</button>
+            </div>
+
+            <!--CARD tabla 2-->
+            <div class="card mb-3 card__properties" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img id="imagenCarta" src="" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 id="username" class="card-title user__name__properties">@username</h5>
+                      <h4  id="nombreUser" class="card-text name__properties">Full name</h4>
+                      <p id="userBio" class="card-text"><small class="text-muted">Bio</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!--TABLA tabla 2-->
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col table__title__properties">Repositorios</th>
+                  </tr>
+                </thead>
+                <tbody id="datosRepos">
+          
+
+
+                </tbody>
+              </table>
+
+
+          </div>
+    </div> <!--CIERRE FIN CONTAINER-->
+
+     <!--END - SEARCH-BAR + CARD + TABLE-->
+
+
+     <!--DOES NOT EXIST-->
+    
+     <div class="container container__properties d-none" id="tablaTres"> 
+        <div class="row shadow p-3 mb-5 bg-white table__border">
+          <div class="col-10">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1"></label>
+                  <input type="text" class="form-control busquedaUsuario"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search username...">
+                  <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+              </form>
+            </div>
+
+            <!--BOTON-->
+            <div class="col-2 button__container">
+              <button  type="button" class="btn btn-primary btn__user btn-light button__properties botonSearch">Search</button>
+          </div>
+       
+
+        <div class="row">
+          <div class="col-12">
+            <div class="tabla__error">
+
+                <div class="alert alert-danger" role="alert">
+                    Does not exist
+                  </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+          
+      <!--END DOES NOT EXIST-->
+
+       
+
+
+
+
+
+      
+
+  
+
+    <!-- Optional JavaScript -->
+    <script src="index.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
